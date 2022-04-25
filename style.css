@@ -1,0 +1,46 @@
+body{
+    background-size: stretch;
+    background-position: top;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-weight: lighter !important;
+    font-size: 50px !important;
+}
+.alert{
+    width: 75% !important;
+}
+canvas{
+    background-color: rgb(255, 232, 182);
+    border-radius: 5px;
+    border: 1px solid rgb(189, 123, 0);
+}
+marquee{
+    color: rgb(255, 196, 0);
+}
+button{
+    transition: all 0.1s ease-in-out;
+    background-color: rgb(72, 155, 72);
+    border-width: 0px;
+    padding: 13px;
+    width: 115px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: rgb(42, 82, 49);
+    font-weight: bold !important;
+}
+button:hover{
+    transform: scale(0.95);
+    background-color: rgb(69, 151, 69);
+    color: rgb(0, 0, 0);
+    font-weight: bold !important;
+}
+button:active{
+    background-color: rgb(68, 139, 68);
+    color: rgb(0, 0, 0);
+    font-weight: bold !important;
+}
+h1{
+    color: rgb(255, 255, 255) !important;
+}
